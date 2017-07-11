@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BvMapCluster_Example' do
+  pod 'BvMapCluster', :path => '../'
+
+  target 'BvMapCluster_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -8,6 +8,7 @@
 
 import Foundation
 import MapKit
+import ClusterKit
 
 public class FBAnnotationClusterView : MKAnnotationView {
 
@@ -57,9 +58,9 @@ public class FBAnnotationClusterView : MKAnnotationView {
     }
 
 	private func updateClusterSize() {
-		if let cluster = annotation as? FBAnnotationCluster {
+        if let cluster = annotation as? CKCluster {
 
-			let count = cluster.annotations.count
+			let count = Int(cluster.count)
 			let template = configuration.templateForCount(count: count)
 
 			switch template.displayMode {

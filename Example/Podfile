@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'BvMapCluster_Example' do
   pod 'BvMapCluster', :path => '../'
+  pod 'SwiftyJSON'
 
   target 'BvMapCluster_Tests' do
     inherit! :search_paths

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A876B491F14B5A30014AD37 /* Enterprise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A876B481F14B5A30014AD37 /* Enterprise.swift */; };
+		3A876B4D1F14B5CB0014AD37 /* galdakao_ge.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A876B4C1F14B5CB0014AD37 /* galdakao_ge.json */; };
 		3FFF960B8E273CB61B9862B5 /* Pods_BvMapCluster_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95077D9C44565BCD0FEFB8E3 /* Pods_BvMapCluster_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,7 +31,9 @@
 
 /* Begin PBXFileReference section */
 		21325160203203D0CDE0299F /* Pods-BvMapCluster_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BvMapCluster_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BvMapCluster_Tests/Pods-BvMapCluster_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3133E8F2E6F3692773A894AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3133E8F2E6F3692773A894AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3A876B481F14B5A30014AD37 /* Enterprise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enterprise.swift; sourceTree = "<group>"; };
+		3A876B4C1F14B5CB0014AD37 /* galdakao_ge.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = galdakao_ge.json; sourceTree = "<group>"; };
 		506221290111EC066211898B /* Pods-BvMapCluster_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BvMapCluster_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BvMapCluster_Example/Pods-BvMapCluster_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BvMapCluster_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BvMapCluster_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,10 +47,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B9FB7D5A1E508080901917A /* Pods_BvMapCluster_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BvMapCluster_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95077D9C44565BCD0FEFB8E3 /* Pods_BvMapCluster_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BvMapCluster_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98954B5946930CB2504ACEDC /* BvMapCluster.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BvMapCluster.podspec; path = ../BvMapCluster.podspec; sourceTree = "<group>"; };
+		98954B5946930CB2504ACEDC /* BvMapCluster.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BvMapCluster.podspec; path = ../BvMapCluster.podspec; sourceTree = "<group>"; };
 		A2B5F77590C82885072DA1BB /* Pods-BvMapCluster_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BvMapCluster_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BvMapCluster_Example/Pods-BvMapCluster_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A6B783F2FC9A53A2635707A9 /* Pods-BvMapCluster_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BvMapCluster_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BvMapCluster_Tests/Pods-BvMapCluster_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E5A948BC2C12E301004C3D49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E5A948BC2C12E301004C3D49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				3A876B481F14B5A30014AD37 /* Enterprise.swift */,
+				3A876B4C1F14B5CB0014AD37 /* galdakao_ge.json */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -215,10 +221,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
+						DevelopmentTeam = K8HL8GA5DS;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = K8HL8GA5DS;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -251,6 +260,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				3A876B4D1F14B5CB0014AD37 /* galdakao_ge.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				3A876B491F14B5A30014AD37 /* Enterprise.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,11 +507,16 @@
 			baseConfigurationReference = A2B5F77590C82885072DA1BB /* Pods-BvMapCluster_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K8HL8GA5DS;
 				INFOPLIST_FILE = BvMapCluster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byvapps.BvMapCluster-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -510,11 +526,15 @@
 			baseConfigurationReference = 506221290111EC066211898B /* Pods-BvMapCluster_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K8HL8GA5DS;
 				INFOPLIST_FILE = BvMapCluster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byvapps.BvMapCluster-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -523,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A6B783F2FC9A53A2635707A9 /* Pods-BvMapCluster_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = K8HL8GA5DS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 21325160203203D0CDE0299F /* Pods-BvMapCluster_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = K8HL8GA5DS;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

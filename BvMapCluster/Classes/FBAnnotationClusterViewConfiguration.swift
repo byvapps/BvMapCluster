@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public struct FBAnnotationClusterViewConfiguration {
 
@@ -18,16 +19,16 @@ public struct FBAnnotationClusterViewConfiguration {
 		self.defaultTemplate = defaultTemplate
 	}
 
-	public static func `default`() -> FBAnnotationClusterViewConfiguration {
-		var smallTemplate = FBAnnotationClusterTemplate(range: Range(uncheckedBounds: (lower: 0, upper: 6)), sideLength: 30)
+    public static func `default`(color: UIColor = UIColor(red: 0.0, green: 122.0/255.0, blue: 1.0, alpha: 1.0)) -> FBAnnotationClusterViewConfiguration {
+        var smallTemplate = FBAnnotationClusterTemplate(range: Range(uncheckedBounds: (lower: 0, upper: 6)), sideLength: 30, color:color)
 		smallTemplate.borderWidth = 3
 		smallTemplate.fontSize = 13
 
-		var mediumTemplate = FBAnnotationClusterTemplate(range: Range(uncheckedBounds: (lower: 6, upper: 15)), sideLength: 40)
+		var mediumTemplate = FBAnnotationClusterTemplate(range: Range(uncheckedBounds: (lower: 6, upper: 15)), sideLength: 40, color:color)
 		mediumTemplate.borderWidth = 4
 		mediumTemplate.fontSize = 14
 
-		var largeTemplate = FBAnnotationClusterTemplate(range: nil, sideLength: 50)
+		var largeTemplate = FBAnnotationClusterTemplate(range: nil, sideLength: 50, color:color)
 		largeTemplate.borderWidth = 5
 		largeTemplate.fontSize = 15
 

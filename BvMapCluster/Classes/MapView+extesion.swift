@@ -110,7 +110,7 @@ extension MKMapView: CKMap {
     }
     
     public func deselect(_ cluster: CKCluster, animated: Bool) {
-        self.deselect(cluster, animated: animated)
+        self.deselectAnnotation(cluster, animated: animated)
     }
     
 }

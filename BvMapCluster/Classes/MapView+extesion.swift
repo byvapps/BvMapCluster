@@ -114,17 +114,3 @@ extension MKMapView: CKMap {
     }
     
 }
-
-extension MKAnnotation {
-    
-    weak public var cluster: CKCluster? {
-        get {
-            return associatedObject(base:self, key: &assoKeyCluster){ return CKCluster() } // Set the initial value of the var
-        }
-        set {
-            if let newValue = newValue {
-                associateObject(base:self, key: &assoKeyCluster, value: newValue)
-            }
-        }
-    }
-}

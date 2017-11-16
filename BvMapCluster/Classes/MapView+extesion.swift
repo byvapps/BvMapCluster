@@ -95,7 +95,7 @@ extension MKMapView: CKMap {
     
     public func move(_ cluster: CKCluster, from: CLLocationCoordinate2D, to: CLLocationCoordinate2D, completion: ((Bool) -> Void)? = nil) {
         cluster.coordinate = from
-        let animations: ((_: Void) -> Void) = {() -> Void in
+        let animations: (() -> Void) = {() -> Void in
             cluster.coordinate = to
         }
         if let delegate = clusterManager.delegate, delegate.responds(to: #selector(CKClusterManagerDelegate.clusterManager(_:performAnimations:completion:))) {
